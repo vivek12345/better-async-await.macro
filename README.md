@@ -57,6 +57,17 @@ yarn add babel-plugin-macros --dev
 }
 ```
 
+## ⭐ Usage in code
+
+```javascript
+async function test() {
+  const [err, resp] = await betterAsyncAwait(api.getData(5));
+  if(err) handleError();
+  // else do something with the response
+}
+```
+
+
 ## Motivation and Idea
 
 This babel macro is to use this plugin [babel-plugin-better-async-await](https://github.com/vivek12345/babel-plugin-better-async-await/) with CRA or any app which in any way relies on @babel/env or on the order of plugins or presets.
