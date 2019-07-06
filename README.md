@@ -8,7 +8,7 @@
 [![Build Status](https://travis-ci.com/vivek12345/better-async-await.macro.svg?branch=master)](https://travis-ci.com/vivek12345/better-async-await.macro) [![Babel Macro](https://img.shields.io/badge/babel--macro-%F0%9F%8E%A3-f5da55.svg?style=flat-square)](https://github.com/kentcdodds/babel-plugin-macros) [![Greenkeeper badge](https://badges.greenkeeper.io/vivek12345/better-async-await.macro.svg)](https://greenkeeper.io/)
 
 
-## 🚚 Installation with CRA < 2.0
+## Installation with CRA < 2.0
 
 ```sh
 npm install --save-dev babel-plugin-macros better-async-await.macro
@@ -20,7 +20,7 @@ or
 yarn add babel-plugin-macros better-async-await.macro --dev
 ```
 
-## 🚚 Installation with CRA >= 2.0
+## Installation with CRA >= 2.0
 
 ```sh
 npm install --save-dev better-async-await.macro
