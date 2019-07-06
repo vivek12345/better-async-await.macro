@@ -52,6 +52,10 @@ async function test() {
 }
 ```
 
+## Demo
+
+[Codesandbox](https://codesandbox.io/s/great-rubin-77n3b)
+
 
 ## Motivation and Idea
 
@@ -239,5 +243,5 @@ MIT © [viveknayyar](https://github.com/vivek12345)
 ## 👷 TODO
 
 - [x] Complete README
-- [ ] Add Examples and Demo
+- [x] Add Examples and Demo
 - [x] Test Suite
