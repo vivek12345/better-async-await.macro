@@ -43,7 +43,7 @@ yarn add better-async-await.macro --dev
 ## ⭐ Usage
 
 ```javascript
-import betterAsyncAwait 'better-async-await.macro';
+import betterAsyncAwait from 'better-async-await.macro';
 
 async function test() {
   const [err, resp] = await betterAsyncAwait(api.getData(5));
@@ -99,7 +99,7 @@ async function completeApplicationFlow() {
 > Approach with this macro and different way of doing this could be:-
 
 ```javascript
-import betterAsyncAwait 'better-async-await.macro';
+import betterAsyncAwait from 'better-async-await.macro';
 
 async function completeApplicationFlow() {
   // wait for get session status api to check the status
