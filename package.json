@@ -1,7 +1,7 @@
 {
   "name": "better-async-await.macro",
   "description": "Write async await statements in a go lang type fashion with no try catch statements",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "engines": {
     "node": ">=8.9.0"
   },
@@ -38,12 +38,12 @@
     "contributors:generate": "all-contributors generate"
   },
   "dependencies": {
-    "babel-plugin-macros": "^2.1.0"
+    "babel-plugin-macros": "^2.1.0",
+    "@babel/template": "^7.4.4"
   },
   "devDependencies": {
     "@babel/core": "^7.3.3",
     "@babel/preset-env": "^7.3.1",
-    "@babel/template": "^7.4.4",
     "all-contributors-cli": "^6.7.0",
     "babel-plugin-tester": "^6.0.0",
     "husky": "^3.0.0",
