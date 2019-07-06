@@ -1,7 +1,7 @@
 {
   "name": "better-async-await.macro",
   "description": "Write async await statements in a go lang type fashion with no try catch statements",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "node": ">=8.9.0"
   },
