@@ -1,19 +1,19 @@
 # better-async-await.macro
 
+[![Build Status](https://travis-ci.com/vivek12345/better-async-await.macro.svg?branch=master)](https://travis-ci.com/vivek12345/better-async-await.macro) [![Babel Macro](https://img.shields.io/badge/babel--macro-%F0%9F%8E%A3-f5da55.svg?style=flat-square)](https://github.com/kentcdodds/babel-plugin-macros)
+
 > Write better async await and avoid the try catch statements
 
 ## 🚚 Installation with CRA < 2.0
 
 ```sh
-npm install --save-dev babel-plugin-macros
-npm install --save-dev better-async-await.macro
+npm install --save-dev babel-plugin-macros better-async-await.macro
 ```
 
 or
 
 ```sh
-yarn add babel-plugin-macros --dev
-yarn add better-async-await.macro --dev
+yarn add babel-plugin-macros better-async-await.macro --dev
 ```
 
 ## 🚚 Installation with CRA >= 2.0
