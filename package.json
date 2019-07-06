@@ -45,10 +45,10 @@
     "@babel/template": "^7.4.4",
     "all-contributors-cli": "^6.7.0",
     "babel-plugin-tester": "^6.0.0",
-    "husky": "^2.0.0",
+    "husky": "^3.0.0",
     "jest": "^24.1.0",
     "lint-staged": "^9.1.0",
-    "microbundle": "^0.7.0",
+    "microbundle": "^0.11.0",
     "prettier": "^1.10.2"
   },
   "husky": {
