@@ -2,7 +2,8 @@
     <h1>better-async-await.macro 🎣</h1>
     Write better async await and avoid the try catch statement
 </div>
-# better-async-await.macro
+
+<hr />
 
 [![Build Status](https://travis-ci.com/vivek12345/better-async-await.macro.svg?branch=master)](https://travis-ci.com/vivek12345/better-async-await.macro) [![Babel Macro](https://img.shields.io/badge/babel--macro-%F0%9F%8E%A3-f5da55.svg?style=flat-square)](https://github.com/kentcdodds/babel-plugin-macros) [![Greenkeeper badge](https://badges.greenkeeper.io/vivek12345/better-async-await.macro.svg)](https://greenkeeper.io/)
 
