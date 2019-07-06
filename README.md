@@ -20,6 +20,14 @@ or
 yarn add babel-plugin-macros better-async-await.macro --dev
 ```
 
+**.babelrc**
+
+```json
+{
+  "plugins": ["babel-plugin-macros"]
+}
+```
+
 ## Installation with CRA >= 2.0
 
 ```sh
@@ -34,32 +42,9 @@ yarn add better-async-await.macro --dev
 
 ## ⭐ Usage
 
-### Via `.babelrc` with CRA < 2.0
-
-> Please install `babel-plugin-macros`
-
-```sh
-npm install --save-dev babel-plugin-macros
-```
-
-or
-
-```sh
-yarn add babel-plugin-macros --dev
-```
-
-
-**.babelrc**
-
-```json
-{
-  "plugins": ["babel-plugin-macros"]
-}
-```
-
-## ⭐ Usage in code
-
 ```javascript
+import betterAsyncAwait 'better-async-await.macro';
+
 async function test() {
   const [err, resp] = await betterAsyncAwait(api.getData(5));
   if(err) handleError();
