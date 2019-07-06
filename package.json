@@ -33,6 +33,7 @@
     "ci": "npm run test -- --ci && npm run build",
     "prepare": "npm run build",
     "precommit": "lint-staged",
+    "prepublish": "npm run lint && npm run test && npm run build",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate"
   },
