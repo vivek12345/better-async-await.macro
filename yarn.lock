@@ -1492,12 +1492,13 @@ babel-plugin-macros@^2.1.0:
     cosmiconfig "^5.2.0"
     resolve "^1.10.0"
 
-babel-plugin-tester@^7.0.0:
-  version "7.0.4"
-  resolved "https://registry.yarnpkg.com/babel-plugin-tester/-/babel-plugin-tester-7.0.4.tgz#a5e1156a69635a973de2451f0722aceb401deb86"
-  integrity sha512-ZKhOa0aaaPNQVOZjxJ4svy8lIKjHswzCNxv3WROmirlFz+5IM22hzNg+p4MGC/C3Tv3sX5JfYSKJIcUE9aPdsA==
+babel-plugin-tester@^9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-tester/-/babel-plugin-tester-9.0.1.tgz#9e975a7fe278a49b3bd4b02bd3a77004819863ee"
+  integrity sha512-q5GXJowxsRefBDhgiZVyNPgIIHsfxtZNnMABxq+vtuoYP2JW8qaiIBBAG9/I0PgRGRpjUDXnn0IhGHGGn7UOcA==
   dependencies:
     lodash.mergewith "^4.6.2"
+    prettier "^2.0.1"
     strip-indent "^3.0.0"
 
 babel-plugin-transform-async-to-promises@^0.8.3:
@@ -6948,6 +6949,11 @@ prettier@^1.10.2:
   version "1.18.2"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.18.2.tgz#6823e7c5900017b4bd3acf46fe9ac4b4d7bda9ea"
   integrity sha512-OeHeMc0JhFE9idD4ZdtNibzY0+TPHSpSSb9h8FqtP+YnoZZ1sl8Vc9b1sasjfymH3SonAF4QcA2+mzHPhMvIiw==
+
+prettier@^2.0.1:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.0.4.tgz#2d1bae173e355996ee355ec9830a7a1ee05457ef"
+  integrity sha512-SVJIQ51spzFDvh4fIbCLvciiDMCrRhlN3mbZvv/+ycjvmF5E73bKdGfU8QDLNmjYJf+lsGnDBC4UUnvTe5OO0w==
 
 pretty-bytes@^3.0.0:
   version "3.0.1"
