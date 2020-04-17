@@ -44,7 +44,7 @@
   "devDependencies": {
     "@babel/core": "^7.3.3",
     "@babel/preset-env": "^7.3.1",
-    "all-contributors-cli": "^6.7.0",
+    "all-contributors-cli": "^6.14.2",
     "babel-plugin-tester": "^7.0.0",
     "husky": "^3.0.0",
     "jest": "^24.1.0",
