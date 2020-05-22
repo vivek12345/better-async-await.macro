@@ -48,7 +48,7 @@
     "babel-plugin-tester": "^7.0.0",
     "husky": "^3.0.0",
     "jest": "^24.1.0",
-    "lint-staged": "^10.0.3",
+    "lint-staged": "^10.2.6",
     "microbundle": "^0.11.0",
     "prettier": "^1.10.2"
   },
