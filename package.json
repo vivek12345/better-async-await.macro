@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "babel-plugin-macros": "^2.1.0",
-    "@babel/template": "^7.4.4"
+    "@babel/template": "^7.10.1"
   },
   "devDependencies": {
     "@babel/core": "^7.10.1",
